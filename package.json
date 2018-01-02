@@ -1,0 +1,24 @@
+{
+  "name": "reason-node-starter",
+  "version": "0.1.0",
+  "description": "A reason-node starter",
+  "license": "MIT",
+  "esy": {
+    "build": [["refmterr", "jbuilder", "build"]],
+    "install": ["esy-installer"],
+    "buildsInSource": "_build"
+  },
+  "dependencies": {
+    "@esy-ocaml/esy-installer": "^0.0.0",
+    "reason-node": "0.0.0-beta",
+    "@opam/reason": "3.0.4",
+    "refmterr": "3.0.4"
+  },
+  "peerDependencies": {
+    "ocaml": "4.6.1"
+  },
+  "devDependencies": {
+    "@opam/merlin": "^3.0.3",
+    "ocaml": "4.6.1"
+  }
+}

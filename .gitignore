@@ -1,0 +1,14 @@
+npm-debug.log
+.merlin
+yarn-error.log
+node_modules/
+_build
+_esybuild
+_esyinstall
+_release
+*.byte
+*.native
+reason-node-starter.install
+.DS_Store
+myDir
+myDir2
