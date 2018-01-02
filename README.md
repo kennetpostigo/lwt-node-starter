@@ -1,4 +1,4 @@
-## reason-node-starter
+# reason-node-starter
 
 Quick project that sets up a basic project with reason-node using esy.
 
