@@ -310,7 +310,7 @@
   peerDependencies:
     ocaml " >= 4.3.0"
 
-"@opam/ocamlfind@ >= 1.5.0", "@opam/ocamlfind@ >= 1.5.2", "@opam/ocamlfind@ >= 1.5.3", "@opam/ocamlfind@ >= 1.6.1", "@opam/ocamlfind@ >= 1.7.2", "@opam/ocamlfind@ >= 1.7.3--1", "@opam/ocamlfind@*":
+"@opam/ocamlfind@", "@opam/ocamlfind@ >= 1.5.0", "@opam/ocamlfind@ >= 1.5.2", "@opam/ocamlfind@ >= 1.5.3", "@opam/ocamlfind@ >= 1.6.1", "@opam/ocamlfind@ >= 1.7.2", "@opam/ocamlfind@ >= 1.7.3--1", "@opam/ocamlfind@*":
   version "1.7.3--1"
   uid "2e5446e160cfd1aae7944b2f7add39b7"
   resolved "@opam/ocamlfind@1.7.3--1-2e5446e160cfd1aae7944b2f7add39b7.tgz"
@@ -462,9 +462,9 @@ ocaml@4.6.1:
   version "4.6.1"
   resolved "https://registry.yarnpkg.com/ocaml/-/ocaml-4.6.1.tgz#8babea2c41a9f734313b4fc1841ec0963c9d7a07"
 
-reason-node@0.0.0-beta:
-  version "0.0.0-beta"
-  resolved "https://registry.yarnpkg.com/reason-node/-/reason-node-0.0.0-beta.tgz#aecabea3199ed586ded890397aa71f9a74d7d943"
+reason-node@0.0.0-beta.5:
+  version "0.0.0-beta.5"
+  resolved "https://registry.yarnpkg.com/reason-node/-/reason-node-0.0.0-beta.5.tgz#444ae7aa744e58435df9721822156f727a8ac9fe"
   dependencies:
     "@esy-ocaml/esy-installer" "^0.0.0"
     "@opam/alcotest" "0.8.1"
