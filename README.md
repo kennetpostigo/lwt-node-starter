@@ -1,6 +1,6 @@
 # reason-node-starter
 
-Quick project that sets up a basic project with reason-node using esy.
+Quick project that sets up a basic project with [reason-node](https://github.com/kennetpostigo/reason-node) using esy.
 
 ### Getting started
 
