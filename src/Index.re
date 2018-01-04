@@ -6,4 +6,4 @@ let app = {
   Node.resolved();
 };
 
-Node.run(app |> ignore);
+Node.run(app);
