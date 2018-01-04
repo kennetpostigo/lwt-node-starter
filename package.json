@@ -10,9 +10,15 @@
   },
   "dependencies": {
     "@esy-ocaml/esy-installer": "^0.0.0",
-    "reason-node": "0.0.0-beta.5",
+    "@opam/jbuilder": "^1.0.0-beta16",
+    "@opam/lwt_ppx": "1.0.0",
     "@opam/reason": "3.0.4",
+    "reason-node": "0.0.0-beta.5",
     "refmterr": "3.0.4"
+  },
+  "resolutions": {
+    "**/@opam/reason":
+      "facebook/reason#b622e8f40c5605e9ab2b2423eb78053b8690d14e"
   },
   "peerDependencies": {
     "ocaml": "4.6.1"

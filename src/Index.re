@@ -1,11 +1,9 @@
 open ReasonNode;
 
 let app = {
-  Node.andThen(Fs.mkdir("myDir"), value =>
-    Node.resolved(prerr_endline("Directory has been made"))
-  )
-  |> ignore;
-  ();
+  let%lwt myDir = Fs.mkdir("myDir");
+  let%lwt myDir2 = Fs.mkdir("myDir2");
+  Node.resolved();
 };
 
-Node.run(app);
+Node.run(app |> ignore);

@@ -195,7 +195,7 @@
   peerDependencies:
     ocaml " >= 4.1.0"
 
-"@opam/jbuilder@ >= 1.0.0-beta10", "@opam/jbuilder@ >= 1.0.0-beta13", "@opam/jbuilder@ >= 1.0.0-beta7", "@opam/jbuilder@ >= 1.0.0-beta9", "@opam/jbuilder@*", "@opam/jbuilder@^1.0.0-beta16":
+"@opam/jbuilder@ >= 1.0.0-beta10", "@opam/jbuilder@ >= 1.0.0-beta12", "@opam/jbuilder@ >= 1.0.0-beta13", "@opam/jbuilder@ >= 1.0.0-beta7", "@opam/jbuilder@ >= 1.0.0-beta9", "@opam/jbuilder@*", "@opam/jbuilder@^1.0.0-beta16":
   version "1.0.0-beta16"
   uid c22568b45c8fe3f13c71a9a303e68b66
   resolved "@opam/jbuilder@1.0.0-beta16-c22568b45c8fe3f13c71a9a303e68b66.tgz"
@@ -237,6 +237,20 @@
     "@opam/result" "*"
   peerDependencies:
     ocaml " >= 4.2.0"
+
+"@opam/lwt_ppx@1.0.0":
+  version "1.0.0"
+  uid ea29300511f3ddbd5094bdeb26f0565c
+  resolved "@opam/lwt_ppx@1.0.0-ea29300511f3ddbd5094bdeb26f0565c.tgz"
+  dependencies:
+    "@esy-ocaml/esy-installer" "^0.0.0"
+    "@esy-ocaml/substs" "^0.0.1"
+    "@opam/jbuilder" " >= 1.0.0-beta12"
+    "@opam/lwt" "*"
+    "@opam/ocaml-migrate-parsetree" "*"
+    "@opam/ppx_tools_versioned" "*"
+  peerDependencies:
+    ocaml "*"
 
 "@opam/lwt_react@*":
   version "1.1.0"
@@ -359,9 +373,9 @@
   peerDependencies:
     ocaml " >= 4.1.0"
 
-"@opam/reason@3.0.4", "@opam/reason@^3.0.0":
+"@opam/reason@3.0.4", "@opam/reason@^3.0.0", "@opam/reason@facebook/reason#b622e8f40c5605e9ab2b2423eb78053b8690d14e":
   version "3.0.4"
-  resolved "@opam/reason@3.0.4-c511799139a8a5795ec62ec4cce96ce4.tgz"
+  resolved "https://codeload.github.com/facebook/reason/tar.gz/b622e8f40c5605e9ab2b2423eb78053b8690d14e"
   dependencies:
     "@esy-ocaml/esy-installer" "^0.0.0"
     "@esy-ocaml/substs" "^0.0.1"
