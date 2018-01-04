@@ -1,9 +1,7 @@
 open ReasonNode;
 
-let app = {
+Node.run({
   let%lwt myDir = Fs.mkdir("myDir");
   let%lwt myDir2 = Fs.mkdir("myDir2");
   Node.resolved();
-};
-
-Node.run(app);
+});
