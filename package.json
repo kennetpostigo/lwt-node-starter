@@ -13,7 +13,7 @@
     "@opam/jbuilder": "^1.0.0-beta16",
     "@opam/lwt_ppx": "1.0.0",
     "@opam/reason": "3.0.4",
-    "reason-node": "0.0.0-beta.6",
+    "reason-node": "0.1.0",
     "refmterr": "3.0.4"
   },
   "resolutions": {
