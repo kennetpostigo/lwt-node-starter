@@ -1,7 +1,7 @@
 {
-  "name": "reason-node-starter",
+  "name": "lwt-node-starter",
   "version": "0.1.0",
-  "description": "A reason-node starter",
+  "description": "A lwt-node starter",
   "license": "MIT",
   "esy": {
     "build": [["refmterr", "jbuilder", "build"]],
@@ -13,7 +13,7 @@
     "@opam/jbuilder": "^1.0.0-beta16",
     "@opam/lwt_ppx": "1.0.0",
     "@opam/reason": "3.0.4",
-    "reason-node": "0.1.0",
+    "lwt-node": "0.1.0",
     "refmterr": "3.0.4"
   },
   "resolutions": {

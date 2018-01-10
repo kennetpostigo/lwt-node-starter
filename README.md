@@ -1,13 +1,13 @@
-# reason-node-starter
+# lwt-node-starter
 
-Quick project that sets up a basic project with [reason-node](https://github.com/kennetpostigo/reason-node) using esy.
+Quick project that sets up a basic project with [lwt-node](https://github.com/kennetpostigo/lwt-node) using esy.
 
 ### Getting started
 
 **Clone Repo**
 
 ```bash
-git clone https://github.com/kennetpostigo/reason-node-starter.git
+git clone https://github.com/kennetpostigo/lwt-node-starter.git
 ```
 
 **Install**

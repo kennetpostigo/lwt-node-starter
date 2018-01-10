@@ -1,4 +1,4 @@
-open ReasonNode;
+open LwtNode;
 
 Node.run({
   let%lwt myDir = Fs.mkdir("myDir");

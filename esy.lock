@@ -267,8 +267,8 @@
 
 "@opam/menhir@ >= 20170418.0.0  <= 20171013.0.0":
   version "20171013.0.0"
-  uid "69db2edf33e616a0fbf62aaa2b5bf518"
-  resolved "@opam/menhir@20171013.0.0-69db2edf33e616a0fbf62aaa2b5bf518.tgz"
+  uid "358990f51123ce9d3629e66b9ead67ee"
+  resolved "@opam/menhir@20171013.0.0-358990f51123ce9d3629e66b9ead67ee.tgz"
   dependencies:
     "@esy-ocaml/esy-installer" "^0.0.0"
     "@esy-ocaml/substs" "^0.0.1"
@@ -472,13 +472,9 @@
   peerDependencies:
     ocaml " >= 4.2.3"
 
-ocaml@4.6.1:
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/ocaml/-/ocaml-4.6.1.tgz#8babea2c41a9f734313b4fc1841ec0963c9d7a07"
-
-reason-node@0.1.0:
+lwt-node@0.1.0:
   version "0.1.0"
-  resolved "https://registry.yarnpkg.com/reason-node/-/reason-node-0.1.0.tgz#850c321ec3e51427f64198e4cc57d2072aa788ed"
+  resolved "https://registry.yarnpkg.com/lwt-node/-/lwt-node-0.1.0.tgz#6e3c2dc0f5b43d4971fec62e1a757cbe2e7883da"
   dependencies:
     "@esy-ocaml/esy-installer" "^0.0.0"
     "@opam/alcotest" "0.8.1"
@@ -489,6 +485,10 @@ reason-node@0.1.0:
     refmterr "3.0.4"
   peerDependencies:
     ocaml "4.6.1"
+
+ocaml@4.6.1:
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/ocaml/-/ocaml-4.6.1.tgz#8babea2c41a9f734313b4fc1841ec0963c9d7a07"
 
 refmterr@3.0.4:
   version "3.0.4"

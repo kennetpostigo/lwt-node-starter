@@ -3,5 +3,5 @@
 (executable
  ((name Index)
   (public_name Index)
-  (libraries (reason-node))
+  (libraries (lwt-node))
   (preprocess (pps (lwt_ppx)))))

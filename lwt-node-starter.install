@@ -1,0 +1,10 @@
+lib: [
+  "_build/install/default/lib/lwt-node-starter/META" {"META"}
+  "_build/install/default/lib/lwt-node-starter/opam" {"opam"}
+]
+bin: [
+  "_build/install/default/bin/Index" {"Index"}
+]
+doc: [
+  "_build/install/default/doc/lwt-node-starter/README.md"
+]
